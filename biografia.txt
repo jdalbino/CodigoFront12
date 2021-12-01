@@ -4,3 +4,5 @@ Soy Ing industrial y project manager, llevo en este mundo tecnológico 5 años.
 me gusta salir a comer
 quiero mejorar en mis habilidades de coder
 por navidad me gusta comer pavo y tomar coca cola
+Esto esta pasando en la rama de juandiego_dev y quiero que Esto
+pase con main.
