@@ -53,6 +53,9 @@ color: inherit;
     color: white;
     /* width: 209px; */
 }
+.main aside a {
+    text-decoration: none;
+}
 .main aside li {
     margin-bottom: 20px;
 }
@@ -75,6 +78,7 @@ color: inherit;
 .articles article {
     border: 3px solid black;
     margin-right: 20px;
+    max-width: 234px;
 }
 /* FOOTER */
 .footer {
