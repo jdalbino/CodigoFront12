@@ -1,0 +1,187 @@
+/* global */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700px;
+}
+p {
+    font-weight: 400px;
+    height: 114px;
+    line-height: 26px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin-right: 33px;
+}
+h2{
+    font-size: 24px;   
+}
+main ul {
+    list-style-type:disc;
+    margin-left:16px ;
+}
+/* principales */
+
+/* HEADER */
+.header {
+    padding: 33px ;
+    background-color:  #00AF1C;
+    color: white;
+    font-size: 32px;
+}
+.header a {
+    text-decoration: none;
+}
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav .ul {
+    display: flex;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.header .nav .ul li {
+    margin-left: 20px;
+}
+/* MAIN */
+.main   {
+    padding: 33px;
+    margin-top: 66px;
+    margin-bottom: 167px;
+}
+
+/* home */
+.home h1 {
+    color: #3B06D2;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.home p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 7px;
+}
+.home-images {
+    display: flex;
+}
+
+/* SERVICIOS */
+.servicios h2 {
+color: #D206B2;
+margin-top: 66px;
+margin-bottom: 16px;
+}
+.servicios p {
+    line-height: 26px;
+    margin-bottom: 12px ;
+}
+.servicios-images   {
+    display: flex;
+}
+
+.servicios ul {
+    margin-top: 50px;
+    line-height: 44px;
+}
+.servicios ul li:nth-child(1) {
+    color: red;
+}
+.servicios ul li:nth-child(2) {
+    color: blue;
+}
+.servicios ul li:nth-child(3) {
+    color: #D79B00;
+}
+.servicios ul li:nth-child(4) {
+    color: #03B3B3;
+}
+/* PORTAFOLIO */
+.portafolio h2 {
+    color: #AAD206;
+    margin-bottom: 16px;
+    margin-top: 50px;
+}
+.portafolio p {
+    margin-bottom: 12px;
+} 
+.portafolio .portafolio-images {
+    display: flex;
+}
+.portafolio-images img {
+margin-bottom: 50px;
+}
+.portafolio ul {
+    line-height: 44px;
+    margin-bottom: 50px;
+}
+.portafolio ul li:nth-child(1) {
+    color:#AE8800;
+}
+.portafolio ul li:nth-child(2) {
+    color:#AE280B;
+}
+.portafolio ul li:nth-child(3) {
+    color: #060564;
+}
+.portafolio ul li:nth-child(4) {
+    color: #637300;
+}
+
+/* CONTACTO */
+.contacto h2 {
+    color: #06D2C6;
+    margin-bottom: 16px;
+}
+.contacto p {
+margin-bottom: 13px;
+}
+.contacto .nombre-apellido {
+    height: 88px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+}
+.contacto .detalle {
+height: 214px;
+width: 100%;
+margin-bottom: 37px;
+padding-top: 19px;
+padding-left: 25px;
+font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+}
+.main button {
+    width: 195px;
+    height: 75px;
+    color: #22A900;
+    font-weight: 400px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid #22A900;
+    padding-top: 24px;
+    padding-left: 63px;
+    padding-right: 69px;
+    padding-bottom: 23px;
+    /* margin-bottom: 167px; */
+    justify-self: flex-start;
+}
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00AF1C;
+    padding:38px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+}
