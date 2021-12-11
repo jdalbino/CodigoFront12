@@ -1,0 +1,224 @@
+/* GLOBALES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+}
+p {
+    color: white;
+}
+/* SECTIONS */
+/* HEADER */
+.header {
+    background-image: url("../img/image\ 1.png");
+    width: 960px;
+    height: 525px;
+    position: relative;
+}
+.header .header-codigo h1 {
+    text-align: center;
+    position: absolute;
+    top: 53px;
+    left: 386px;
+}
+.header .header-codigo p {
+    background-color: #7299FE80;
+    width: 365px;
+    height: 117px;
+    position: absolute;
+    left: 70px;
+    bottom: 95px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+/* SECTION SOBRE MI */
+.main .main-sobremi {
+    background-color: #7299FE;
+    width: 960px;
+    height: 424px;
+    padding-top: 27px;
+    padding-left: 41px;
+    padding-right: 47px;
+    padding-bottom: 76px;
+    box-sizing: border-box;
+}
+.main .main-sobremi h2 {
+    color: #1D06A7;
+    margin-bottom: 29px;
+    text-align: center;
+}
+.main .main-sobremi p {
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+.main .main-sobremi button {
+    color: white;
+    font-size: 22px;
+    background-color: #D16FFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 59px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-right: 57px;
+}
+/* MIS SKILLS */
+.main .main-skills {
+    background-color: #9022FF;
+    width: 960px;
+    height: 424px;
+    padding-top: 31px;
+    padding-left: 64px;
+    padding-right: 57px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+}
+.main .main-skills h2 {
+    color: #26CC4B;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.main .main-skills h3 {
+color: white;
+font-size: 18px;
+font-weight: 400;
+}
+.main .main-skills .skills-lefright {
+    display: flex;
+    justify-content: space-between;
+}
+.main .main-skills .skills-lefright .javavue {
+    margin-top: 25px;
+}
+.main .main-skills .skills-lefright .flexcss {
+    margin-top: 36px;
+}
+.main .main-skills .skills-lefright .barra {
+    width: 403px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+.main .main-skills .skills-lefright .barra .color {
+    width: 50%;
+    height: 100%;
+    background-color: #57EFF9;
+    border-radius: 20px;
+}
+/* PORTAFOLIO */
+.main .main-portafolio {
+    background-color: #FFD233;
+    width: 960px;
+    height: 424px;
+    padding-top: 42px;
+    padding-left: 183px;
+    padding-right: 179px;
+    padding-bottom: 96px;
+    box-sizing: border-box;
+}
+.main .main-portafolio h3 {
+    color: #00AD84;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 46px;
+}
+.main .main-portafolio img {
+    width: 140px;
+    height: 92px;
+}
+.portafolio-imagenes {
+    row-gap: 13px;
+}
+.portafolio-imagenes .img-arriba {
+    column-gap: 11px;
+}
+.portafolio-imagenes .img-abajo {
+    column-gap: 13px;
+}
+/* CLIENTES */
+.main .main-clientes {
+    background-color: #3F4E62;;
+    width: 960px;
+    height: 258px;
+    padding-top: 36px;
+    padding-left: 70px;
+    padding-right: 65px;
+    padding-bottom: 98px;
+    box-sizing: border-box;
+}
+.main .main-clientes h3 {
+    color: #ADFF28;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.main .main-clientes .clientes-imagenes {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 23px;
+}
+/* CONTACTO */
+.footer .footer-contacto {
+    background-color: #1687A0;
+    width: 960px;
+    height: 578px;
+    padding-top: 34px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 76px;
+    box-sizing: border-box;
+    position: relative;
+}
+.footer .footer-contacto h3 {
+    color: #FF1B1B;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.footer .footer-contacto .input-general input {
+    width: 363px;
+    height: 59px;
+    box-sizing: border-box;
+}
+.footer .footer-contacto .input-general {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 33px;
+    margin-bottom: 36px;
+}
+.input-left :nth-child(1), .input-right :nth-child(1){
+    margin-bottom: 33px;
+}
+.footer .footer-contacto textarea {
+    width: 759px;
+    height: 112px;
+    box-sizing: border-box;
+    margin-bottom: 45px;
+}
+.footer-boton button {
+    position: absolute;
+    left: 396px;
+    bottom: 76px;
+    background-color:#233451 ;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 18px;
+    padding-left: 51px;
+    padding-right: 47px;
+    padding-bottom: 17px;
+}
