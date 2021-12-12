@@ -1,0 +1,140 @@
+/* GLOBALES */
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    padding-left: 36px;
+    padding-right: 53px;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    color: #414141;
+}
+.wrap {
+    margin: auto;
+    width: 62%;
+}
+h1 {
+    font-family: 'Fascinate', cursive;
+    font-size: 52px;
+    font-weight: 900;
+    color: #87119A;
+}
+nav ul li {
+font-size: 24px;
+font-weight: 400;
+color: #707070;
+}
+nav ul :nth-child(1) {
+    color: #87119A;
+    border-bottom: solid;
+}
+h2 {
+    color: #87119A;
+    font-size: 28px;
+    font-weight: 700;
+    border-left: solid;
+    padding: 15px ;
+}
+/* SECTIONS */
+.header {
+    padding: 40px;
+    background: #9ECEFA;
+
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav ul {
+    display: flex;
+}
+.header nav ul li {
+    margin-right: 10px;
+}
+.header nav ul :nth-last-child(1){
+    margin-right: 0px;
+}
+/* NOSOTROS */
+.main .nosotros {
+    margin-top: 43px;
+}
+.main .nosotros .nosotros-figure {
+    display: flex;
+    justify-content: center;
+}
+.main .nosotros .nosotros-figure figure {
+    margin-right: 28px;
+    
+}
+.main .nosotros .nosotros-figure figure img {
+    width: 230px;
+    height: 150px;
+}
+/* SERVICIOS */
+.main .servicios {
+    margin-top: 83px;
+}
+.main .servicios .main-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .servicios .main-servicios figure {
+    margin: 16px;
+}
+.main .servicios .main-servicios figure img{
+    width: 300px;
+    height: 200px;
+}
+/* PORTAFOLIO */
+.main .portafolio {
+    margin-top: 93px;
+}
+.main .portafolio .main-portafolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .portafolio .main-portafolio figure img{
+    width: 170px;
+    height: 120px;
+    margin: 10px;
+}
+/* CONTACTO */
+.main .contacto {
+    margin-top: 93px;
+}
+.main .contacto figure img {
+width: 500px;
+height: 300px;
+}
+.main .contacto .contacto-details {
+    display: flex;
+    column-gap: 15px;
+}
+.main .contacto .contacto-details ul li {
+    margin-bottom: 20px;
+}
+.main .contacto .contacto-details span {
+    font-weight: bold;
+}
+/* FOOTER */
+.footer {
+    margin-top: 337px;
+    background: #9ECEFA;
+    padding: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer span {
+color: #87119A;
+font-weight: bold;
+}
