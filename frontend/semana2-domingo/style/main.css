@@ -26,6 +26,7 @@ hr {
 }
 a {
     text-decoration: none;
+    color: #262626;
 }
 /* SECTIONS */
 
@@ -38,14 +39,100 @@ a {
 }
 .header .header-list {
     display: flex;
+    padding-top: 35px;
     gap: 10px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;    
 }
-/* .header-logo div {
-    background-image:url("../img/header/Rectangle 73.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-} */
+.header-list .sobremi:hover,
+.header-list .portfolio:hover,
+.header-list .servicios:hover,
+.header-list .blog:hover,
+.header-list .contacto:hover {
+    border-bottom: solid 3px #6D0AD3;
+    border-radius: 3px;
+}
+.header-list .sobremi a:hover,
+.header-list .portfolio a:hover,
+.header-list .servicios a:hover,
+.header-list .blog a:hover,
+.header-list .contacto a:hover {
+color: #6D0AD3;
+}
+/* LOGO-START */
+.header-logo {
+    position: relative;
+}
+.header-logo .rect1,
+.header-logo .rect2,
+.header-logo .rect3,
+.header-logo .rect4,
+.header-logo .logo-label {
+    position: absolute;
+}
+.header-logo .rect1 {
+    z-index: 1;
+    margin-left: 3px;
+}
+.header-logo .rect2{
+    z-index: 2;
+    margin-left: 5px;
+}
+.header-logo .rect3 {
+    z-index: 3;
+    margin-left: 7px;
+}
+.header-logo .rect4 {
+    z-index: 4;
+    margin-left: 9px;
+}
+.header-logo .logo-label {
+    z-index: 5;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #6D0AD3;
+    font-size: 14px;
+    font-family: 'Beth Ellen', cursive;
+}
+/* FOOTERLOGO */
+.footer-logo {
+    position: relative;
+    margin-bottom: 60PX;
+    margin-right: 150PX;
+}
+.footer-logo .frect1,
+.footer-logo .frect2,
+.footer-logo .frect3,
+.footer-logo .frect4,
+.footer-logo .flogo-label {
+    position: absolute;
+}
+.footer-logo .frect1 {
+    z-index: 1;
+    margin-left: 3px;
+}
+.footer-logo .frect2{
+    z-index: 2;
+    margin-left: 5px;
+}
+.footer-logo .frect3 {
+    z-index: 3;
+    margin-left: 7px;
+}
+.footer-logo .frect4 {
+    z-index: 4;
+    margin-left: 9px;
+}
+.footer-logo .flogo-label {
+    z-index: 5;
+    margin-left: 30px;
+    margin-top: 22px;
+    color: #6D0AD3;
+    font-size: 14px;
+    font-family: 'Beth Ellen', cursive;
+}
+/* LOGO-END */
 /* PRESENTATION */
 .main .main-presentation {
     margin-top: 72px;
@@ -129,6 +216,9 @@ gap: 20px;
     border-radius: 8px;
     font-family: 'Poppins',sans-serif;
     position: relative;
+}
+.main .main-services .rectangle:hover {
+    border: 5px solid #5A0CB0;
 }
 .main .main-services .rectangle img {
     position: absolute;
@@ -217,6 +307,16 @@ gap: 20px;
     position: absolute;
     bottom: 52px;
     right: 0;
+}
+.main .main-services .rectangle .rectangle-ux:hover,
+.main .main-services .rectangle .rectangle-front:hover,
+.main .main-services .rectangle .rectangle-back:hover,
+.main .main-services .rectangle .rectangle-apps:hover,
+.main .main-services .rectangle .rectangle-cloud:hover,
+.main .main-services .rectangle .rectangle-consulting:hover
+{
+    background: #5A0CB0;
+    color: white;
 }
 .services-rectangles {
     display: grid;
@@ -370,10 +470,6 @@ justify-content: space-between;
 align-items: center;
 padding-top: 32px;
 }
-.footer .footer-logo {
-    width: 157px;
-    text-align: center;
-}
 .footer .footer-nav-top h5 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
@@ -392,10 +488,27 @@ text-align: center;
     margin-top: 28px;
     margin-bottom: 36px;
 }
-.footer .footer-nav-middle ul {
+.footer .footer-nav-middle .footer-middle-list {
     display: flex;
     gap: 15px;
 }
+
+.footer-middle-list .f_sobremi:hover,
+.footer-middle-list .f_portfolio:hover,
+.footer-middle-list .f_servicios:hover,
+.footer-middle-list .f_blog:hover,
+.footer-middle-list .f_contacto:hover {
+    border-bottom: solid 3px #6D0AD3;
+    border-radius: 3px;
+}
+.footer-middle-list .f_sobremi a:hover,
+.footer-middle-list .f_portfolio a:hover,
+.footer-middle-list .f_servicios a:hover,
+.footer-middle-list .f_blog a:hover,
+.footer-middle-list .f_contacto a:hover {
+color: #6D0AD3;
+}
+
 .footer .footer-nav-bottom {
     display: flex;
     justify-content: center;
@@ -403,4 +516,5 @@ text-align: center;
     color: #262626;
     font-weight: 400;
     padding-bottom: 18px;
+    gap: 4px;
 }
