@@ -2,10 +2,12 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    width: 960px;
-    margin: auto;
-}
+        width: 62.5%;
+        margin: auto;
+    }
+
 h3,h4 {
     font-family: 'Poppins', sans-serif;
 }
@@ -29,7 +31,6 @@ a {
     color: #262626;
 }
 /* SECTIONS */
-
 /* HEADER */
 .header {
     display: flex;
@@ -338,7 +339,7 @@ gap: 20px;
     margin-bottom: 32px;
 }
 .main .main-blog img {
-width:initial;
+width:100%;
 height: initial;
 }
 .main .main-blog .main-blog-cards {
@@ -419,7 +420,7 @@ margin-bottom: 21px;
 display: flex;
 }
 .main .main-blog .javascript #email {
-width: 179px;
+width: 70%;
 height: 50px;
 border: 1px solid #C0C0C0;
 border-radius: 8px 0px 0px 8px;
@@ -428,7 +429,7 @@ padding: 10px;
 .main .main-blog .javascript .subscribe {
     background-color: #6D0AD3;
     border-radius: 0px 8px 8px 0px;
-    width: 127px;
+    width: 40%;
     height: 50px;
     color: white;
 }
@@ -518,3 +519,149 @@ color: #6D0AD3;
     padding-bottom: 18px;
     gap: 4px;
 }
+
+/* RESPONSIVE */
+/* MOBILE XS min width 0px a 420px
+MOBILE SMALL 420px a 520px
+MOBILE MEDIUM 520px a 680px
+MOBILE LARGE 820px a 960px
+/* XL tablet 1024-1370 */
+@media (max-width: 1230px) {
+    .main .main-presentation {
+        display: block;
+    }
+    .main-presentation figure {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .main-presentation .socials {
+        display: flex;
+        justify-content: center;
+    }
+    .main .main-down {
+        margin-top: 30px;
+    }
+    .main .main-presentation .main-presentacion-button {
+        margin-top: 10px;
+    }
+    .main-presentacion-button .icons {
+        gap: 0px;
+    }
+    .main .main-services .services-rectangles {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .main .main-blog .main-blog-cards {
+        display: block;
+    }
+    .main .main-blog img {
+        width: 70%;
+    }
+
+    .main .main-blog .js {
+        text-align: center;
+    }
+    .main .main-blog .css3 {
+        margin-top: 30px;
+    text-align: center;
+    }
+    .main .main-blog .jsengine {
+        margin-right: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .main .main-blog .javascript {
+        text-align: center;
+    margin-top: 30px;
+}
+    .main .main-contact form .contact-form {
+        grid-template-columns: 1fr 1fr;
+    }
+    .main .main-portfolio .portfolio-imagenes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .header .header-list {
+        padding-top: 52px;
+    }
+}
+@media (max-width:770px) {
+    .main .main-services .services-rectangles {
+        grid-template-columns: 1fr;
+        grid-template-rows: 208px 208px 208px 208px 208px 208px;
+    }
+    .footer .footer-nav-top {
+        display: block;
+        text-align: center;
+    }
+    .footer .footer-logo {
+        display: none;
+    }
+    .footer .footer-nav-top h5 {
+        margin-bottom: 20px;
+    }
+    .footer .footer-icons {
+        justify-content: center;
+    }
+}
+@media (max-width:660px) {
+    .main .main-presentation .main-presentacion-button {
+        display: block;
+        text-align: center;
+    }
+    .main .main-presentation .main-presentacion-button .icons {
+        justify-content: center;
+    }
+    .header {
+        display: block;
+    }
+    .header .header-logo {
+        display: flex;
+        justify-content: center;   
+    }
+    .header .header-logo .logo-label {
+        margin-left: 10px;
+    }
+    .header .header-list {
+        margin-top: 52px;
+        justify-content: center;
+    }
+}
+@media (max-width:590px) {
+    .header .header-list {
+        display: block;
+        text-align: center;
+    }
+    .header .header-list li {
+        margin: 10px;
+    }
+    .footer .footer-nav-middle .footer-middle-list {
+        display: block;
+    }
+    .footer .footer-nav-middle .footer-middle-list li {
+    margin: 10px;
+    }
+}
+@media (max-width:460px) {
+    .main .main-portfolio .portfolio-imagenes {
+        grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .main .main-contact form .contact-form {
+        display: block;
+        text-align: center;
+    }
+    .main .main-contact form input,
+    .main .main-contact form textarea
+    {
+    width: 95%;
+    margin: 5px;
+    }
+}
+/* @media (min) */
+/* TABLET: min width 961px 1024 */
+
+    /* RESPONSIVE */
