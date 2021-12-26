@@ -1,0 +1,389 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica,sans-serif;
+}
+h1,p, .date, .navigationlabel,.lets-talk, .rights {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2,h3,h6,h4, .about-us h5, .follow-us h5 {
+    font-family: Helvetica,sans-serif;
+}
+h5 {
+    font-family: 'Gilroy',sans-serif;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+/* SECTIONS */
+.footer ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+img {
+    display: inline-block;
+}
+/* HEADER */
+.header {
+    padding: 49px 36px 51px 96px;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header .header-logo {
+    position: relative;
+}
+.header .header-logo .elipsehead1 {
+    position: absolute;
+left: 0px;
+z-index: 1;
+}
+.header .header-logo .elipsehead2 {
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+}
+.header .header-logo .logo-a {
+    left: 23px;
+    top: 5px;
+    position: absolute;
+    font-size: 20px;
+    color: #316099;
+    z-index: 3;
+}
+.header nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+}
+/* MAIN */
+/* MAIN-BLOG */
+.main .blog {
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+.main .blog h1 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+.main .blog p {
+    font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.78);
+text-align: center;
+}
+.main .blog .blog-background {
+    position: absolute;
+}
+.main .blog .elipse1 {
+    position: absolute;
+    left: 0;
+    bottom: 59px;
+}
+.main .blog .elipse2 {
+    position: absolute;
+    left: 219px;
+    bottom: 0px;
+}
+.main .blog .elipse3 {
+    position: absolute;
+    left: 361px;
+    top: 0px;
+}
+.main .blog .elipse4 {
+    position: absolute;
+    left: 856px;
+    bottom: 5px;
+}
+.main .blog .elipse5 {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+/* MAIN-MAINSECTION */
+.main .main-section {
+    width: 80%;
+    padding-top: 56px;
+    padding-bottom: 98px;
+    margin: auto;
+}
+/* MAIN-SEARCH ARTICLE */
+.main .main-section .search-article {
+    margin-bottom: 56px;
+}
+.main .main-section .search-article input {
+    width: 100%;
+    height: 56px;
+    padding: 20px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    color: #1F3F68;
+}
+/* MAIN-POPULAR */
+.main .popular h2 {
+    font-size: 20px;
+    margin-bottom: 34px;
+    font-weight: bold;
+    color: #356EAD;  
+}
+.main .popular .popular-Feugeat,
+.main .popular .popular-middle
+{
+    display: flex;
+}
+.main .popular .popular-Feugeat {
+    margin-bottom: 32px;
+}
+.main .popular .popular-Feugeat .image {
+    width: 70%;
+    height: 100%;
+}
+.main .popular .popular-Feugeat h3 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 17px;
+}
+.main .popular .popular-Feugeat p {
+    font-size: 16px;
+line-height: 26px;
+color: #000000;
+opacity: 0.6;
+margin-bottom: 18px;
+}
+.main .popular .popular-Feugeat figure {
+    width: 60%;
+} 
+.main .popular .popular-Feugeat .popular-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+.main .popular .popular-Porta,
+.main .popular .popular-nonquam 
+{
+    margin-right: 20px;
+}
+.main .popular .popular-Porta img,
+.main .popular .popular-nonquam img,
+.main .popular .popular-amet img
+{
+margin-bottom: 13px;
+width: 100%;
+}
+.main .popular .popular-Porta h3,
+.main .popular .popular-nonquam h3,
+.main .popular .popular-amet h3
+{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+.main .popular .popular-Porta p,
+.main .popular .popular-nonquam p,
+.main .popular .popular-amet p
+{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 33px;
+}
+
+.main .popular .article-reference {
+    display: flex;
+    justify-content: space-between;
+}
+.main .popular .article-reference .author h6 {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    color: #1F3F68;
+}
+.main .popular .article-reference .author .date {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.main .popular .article-reference .icons {
+    display: flex;
+}
+.main .popular .article-reference .icons .icon-share {
+    margin-left: 38px;
+}
+.main .popular .popular-seall {
+font-family: Helvetica, sans-serif;
+font-size: 16px;
+line-height: 18px;
+text-align: end;
+font-weight: bold;
+color: #356EAD;
+margin-top: 54px;
+}
+.main .popular-hr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 26px;
+}
+
+/* MAIN-ARTICLES */
+.main .articles {
+     margin-top: 58px;
+}
+.main .articles h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 34px;
+    color: #356EAD;
+    opacity: 0.8;
+}
+.main .articles .article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 22px;
+}
+.main .articles .article-reference .author h6 {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    color: #1F3F68;
+}
+.main .articles .article-reference .author .date {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.main .articles .article-reference .icons {
+    display: flex;
+}
+.main .articles .article-reference .icons .icon-share {
+    margin-left: 41px;
+} 
+.main .articles .article-section .article-massa,
+.main .articles .article-section .article-Feugiat,
+.main .articles .article-section .article-Sociis,
+.main .articles .article-section .article-cursus,
+.main .articles .article-section .article-morbi
+{
+display: flex;
+margin-bottom: 32px;
+}
+.main .articles .article-section h3 {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 5px;
+}
+.main .articles .article-section p {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.main .articles .article-section .article-reference {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main .articles .article-navigation {
+display: flex;
+justify-content: space-between;
+margin-top: 56px;
+}
+.main .articles .article-navigation .nav-left,
+.main .articles .article-navigation .nav-right {
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+}
+.main .articles .article-navigation .nav-left figure,
+.main .articles .article-navigation .nav-right label
+{
+margin-right: 19px;
+}
+/* MAIN-INTERESTED */
+.main .interested {
+    background-color: #316099;
+}
+.main .interested .interested-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 91px 203px 91px 203px;
+}
+.main .interested .interested-section h4 {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: white;
+    margin-bottom: 32px;
+}
+.main .interested .interested-section p {
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+    color: white;
+}
+.main .interested .interested-section .lets-talk {
+    background-color: #5A98D0;
+    padding: 15px 74px 15px 74px;
+    color: white;
+}
+.main .interested hr {
+    border: 0.5px solid #FFFFFF;
+    opacity: 0.4;
+    margin: 0px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #316099;
+    padding: 96px 208px 64px 208px;
+    color: white;
+}
+.footer .footer-top {
+    display: flex;
+    gap: 158px;
+    justify-content: space-between;
+}
+.footer .afiranska h5 {
+    font-size: 28px;
+}
+.footer .afiranska ul li span {
+font-family: Helvetica,sans-serif;
+font-weight: bold;
+font-size: 16px;
+}
+.footer .afiranska ul li {
+    margin-bottom: 24px;
+}
+.footer .about-us h5, .footer .follow-us h5 {
+    font-size: 20px;
+}
+.footer .rights {
+    opacity: 0.6;
+    margin-top: 64px;
+}
+
