@@ -64,6 +64,10 @@ z-index: 1;
     line-height: 28px;
     letter-spacing: 0.04em;
 }
+.header nav ul li a:hover {
+color: #1F3F68;
+font-weight: bold;
+}
 /* MAIN */
 /* MAIN-BLOG */
 .main .blog {
@@ -89,31 +93,33 @@ text-align: center;
 }
 .main .blog .blog-background {
     position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .main .blog .elipse1 {
     position: absolute;
     left: 0;
-    bottom: 59px;
+    bottom: 20%;
 }
 .main .blog .elipse2 {
     position: absolute;
-    left: 219px;
+    left: 23%;
     bottom: 0px;
 }
 .main .blog .elipse3 {
     position: absolute;
-    left: 361px;
+    left: 30%;
     top: 0px;
 }
 .main .blog .elipse4 {
     position: absolute;
-    left: 856px;
-    bottom: 5px;
+    left: 65%;
+    bottom: 3%;
 }
 .main .blog .elipse5 {
     position: absolute;
-    top: 50px;
-    right: 10px;
+    top: 25%;
+    right: 1%;
 }
 /* MAIN-MAINSECTION */
 .main .main-section {
@@ -314,12 +320,20 @@ margin-top: 56px;
 .main .articles .article-navigation .nav-left,
 .main .articles .article-navigation .nav-right {
     display: flex;
+}
+.nav-left a,
+.nav-right a {
     font-size: 16px;
     letter-spacing: 0.04em;
     color: #356EAD;
 }
+
+.main .articles .article-navigation .nav-left .navigationlabel a:hover,
+.main .articles .article-navigation .nav-right .navigationlabel a:hover {
+font-weight: 700;
+}
 .main .articles .article-navigation .nav-left figure,
-.main .articles .article-navigation .nav-right label
+.main .articles .article-navigation .nav-right label a
 {
 margin-right: 19px;
 }
@@ -364,12 +378,11 @@ margin-right: 19px;
     color: white;
 }
 .footer .footer-top {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 158px;
-    justify-content: space-between;
 }
-
-
 .footer .footer-logo {
     position: relative;
 }
@@ -417,5 +430,119 @@ font-size: 16px;
 
 /* RESPONSIVE */
 /* 1024px - 1440px */
+@media (max-width:1219px) {
+    .main .main-section {
+        width: 95%;
+    }
+    .footer .footer-top {
+        gap: 100px;
+    }
+    .footer .about-us h5, .footer .follow-us h5 {
+        min-width: 99px;
+    }
+}
+@media (max-width:1024px) {
+    .main .interested .interested-section {
+        padding: 10% 20% 10% 20%;
+    }
+    .main .interested .interested-section .lets-talk {
+        padding: 15px 37px 15px 37px;
+    }
+    .main .interested .interested-section div {
+        width: 70%;
+    }
+    .main .interested .interested-section br {
+        display: none;
+    }
+    .footer {
+        padding: 10% 20% 10% 20%;
+    }
+    .footer .footer-top {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px;
+    }
+    .footer .rights {
+        margin-top: 0;
+    }
+}
+@media (max-width:909px) {
+    .header {
+        padding: 5% 2% 5% 2%;
+    }
+    .main .popular .popular-Feugeat,
+    .main .popular .popular-middle
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .main .popular .popular-Feugeat {
+        flex-direction: column-reverse;
+    }
+    .main .popular .popular-Feugeat .image {
+        width: 100%;
+    }
+    .main .popular .popular-Porta, .main .popular .popular-nonquam,
+    .main .popular .popular-Porta, .main .popular .popular-Porta,
+    .main .popular .popular-Porta, .main .popular .popular-amet 
+    {
+        margin-right: 0;
+    }
+    .main .articles .article-section .article-Sociis,
+    .main .articles .article-section .article-cursus,
+    .main .articles .article-section .article-morbi {
+        display: none;
+    }
+    .article-section .article-massa,
+    .article-section .article-Feugiat {
+    flex-direction: column;
+    }
+    .article-section .article-massa .article-content,
+    .article-section .article-Feugiat .article-content {
+        padding-left: 0;
+    }
+    .main .articles .article-section .article-reference {
+        margin-top: 39px;
+    }
+    .main .articles .article-section h3 {
+        margin-top: 15px;
+    }
+}
+@media (max-width:715px) {
+    .main .interested .interested-section {
+        padding: 10% 3% 10% 3%;
+        flex-direction: column;
+    }
+    .main .interested .interested-section .lets-talk {
+margin-top: 10px;
+width: 70%;
+    }
+    .footer .footer-top {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 200px 200px;
+        gap: 5px;
+    }
+}
+@media (max-width:399px) {
+    .header nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-logo {
+        margin-right: 13%;
+    }
+    .header nav ul {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .main .blog h1 {
+        font-size: 30px;
+    }
+    .main .blog p {
+        font-size: 15px;
+    }
+}
 /* 820px-1024px */
 /* 420px-820px */
