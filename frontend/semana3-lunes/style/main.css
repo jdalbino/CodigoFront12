@@ -368,8 +368,36 @@ margin-right: 19px;
     gap: 158px;
     justify-content: space-between;
 }
+
+
+.footer .footer-logo {
+    position: relative;
+}
+.footer .footer-logo .felipsehead1 {
+    position: absolute;
+left: 0px;
+z-index: 1;
+}
+.footer .footer-logo .felipsehead2 {
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+}
+.footer .footer-logo .footer-logo-a {
+    left: 23px;
+    top: 5px;
+    position: absolute;
+    font-size: 20px;
+    color: #316099;
+    z-index: 3;
+}
+
+
+
 .footer .afiranska h5 {
     font-size: 28px;
+    margin-left: 55px;
+    padding-top: 5px;
 }
 .footer .afiranska ul li span {
 font-family: Helvetica,sans-serif;
@@ -387,3 +415,7 @@ font-size: 16px;
     margin-top: 64px;
 }
 
+/* RESPONSIVE */
+/* 1024px - 1440px */
+/* 820px-1024px */
+/* 420px-820px */
