@@ -1,0 +1,141 @@
+@media (max-width: 1219px) {
+  .main {
+    .main-section {
+      width: 95%;
+    }
+  }
+  .footer {
+    .footer-top {
+      gap: 100px;
+    }
+    .about-us h5,
+    .follow-us h5 {
+      min-width: 99px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .main {
+    .interested {
+      .interested-section {
+        padding: 10% 20% 10% 20%;
+        .lets-talk {
+          padding: 15px 37px 15px 37px;
+        }
+        div {
+          width: 70%;
+        }
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+  .footer {
+    padding: 10% 20% 10% 20%;
+    .footer-top {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 40px;
+    }
+    .rights {
+      margin-top: 0;
+    }
+  }
+}
+@media (max-width: 909px) {
+  .header {
+    padding: 5% 2% 5% 2%;
+  }
+  .main {
+    .popular {
+      .popular-Feugeat,
+      .popular-middle {
+        display: flex;
+        flex-direction: column;
+      }
+      .popular-Feugeat {
+        flex-direction: column-reverse;
+        .image {
+          width: 100%;
+        }
+      }
+      .popular-Porta,
+      .popular-nonquam,
+      .popular-amet {
+        margin-right: 0;
+      }
+    }
+    .articles {
+      .article-section {
+        .article-Sociis,
+        .article-cursus,
+        .article-morbi {
+          display: none;
+        }
+        .article-massa,
+        .article-Feugiat {
+          flex-direction: column;
+        }
+        .article-massa .article-content,
+        .article-Feugiat .article-content {
+          padding-left: 0;
+        }
+        .article-reference {
+          margin-top: 39px;
+        }
+        h3 {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 715px) {
+  .main {
+    .interested {
+      .interested-section {
+        padding: 10% 3% 10% 3%;
+        flex-direction: column;
+        .lets-talk {
+          margin-top: 10px;
+          width: 70%;
+        }
+      }
+    }
+  }
+  .footer {
+    .footer-top {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 200px 200px;
+      gap: 5px;
+    }
+  }
+}
+@media (max-width: 399px) {
+  .header {
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      ul {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+      }
+    }
+    .header-logo {
+      margin-right: 13%;
+    }
+  }
+  .main {
+    .blog {
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}

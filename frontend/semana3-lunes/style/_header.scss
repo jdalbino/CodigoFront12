@@ -1,0 +1,42 @@
+.header {
+    padding: 49px 36px 51px 96px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        ul {
+            display: flex;
+            gap: 20px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.04em;
+            li {
+                a:hover {
+                    color: #1F3F68;
+                    font-weight: bold;
+                    }
+            } 
+        }
+    }
+    .header-logo {
+        position: relative;
+        .elipsehead1 {
+            position: absolute;
+        left: 0px;
+        z-index: 1;
+        }
+        .elipsehead2 {
+            position: absolute;
+            left: 15px;
+            z-index: 2;
+        }
+        .logo-a {
+            left: 23px;
+            top: 5px;
+            position: absolute;
+            font-size: 20px;
+            color: #316099;
+            z-index: 3;
+        }
+    }
+}

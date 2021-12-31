@@ -1,0 +1,89 @@
+.main {
+  .articles {
+    margin-top: 58px;
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 34px;
+      color: #356ead;
+      opacity: 0.8;
+    }
+    .article-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 22px;
+    }
+    .article-reference {
+      .author {
+        h6 {
+          font-weight: bold;
+          font-size: 14px;
+          letter-spacing: 0.04em;
+          margin-bottom: 4px;
+          color: #1f3f68;
+        }
+        .date {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.4);
+        }
+      }
+      .icons {
+        display: flex;
+        .icon-share {
+          margin-left: 41px;
+        }
+      }
+    }
+    .article-section {
+      .article-massa,
+      .article-Feugiat,
+      .article-Sociis,
+      .article-cursus,
+      .article-morbi {
+        display: flex;
+        margin-bottom: 32px;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 0.04em;
+        color: #1f3f68;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .article-reference {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    .article-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 56px;
+      .nav-left,
+      .nav-right {
+        display: flex;
+      }
+      .nav-left a,
+      .nav-right a {
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        color: #356ead;
+      }
+      .nav-left .navigationlabel a:hover,
+      .nav-right .navigationlabel a:hover {
+        font-weight: 700;
+      }
+      .nav-left figure,
+      .nav-right label a {
+        margin-right: 19px;
+      }
+    }
+  }
+}

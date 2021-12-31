@@ -1,0 +1,109 @@
+.main {
+  .popular {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 34px;
+      font-weight: bold;
+      color: #356ead;
+    }
+    .popular-Feugeat,
+    .popular-middle {
+      display: flex;
+    }
+    .popular-Feugeat {
+      margin-bottom: 32px;
+      .image {
+        width: 70%;
+        height: 100%;
+      }
+      h3 {
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.04em;
+        color: #1f3f68;
+        margin-bottom: 17px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 18px;
+      }
+      figure {
+        width: 60%;
+      }
+      .popular-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 25px;
+      }
+    }
+    .popular-Porta,
+    .popular-nonquam {
+      margin-right: 20px;
+    }
+    .popular-Porta img,
+    .popular-nonquam img,
+    .popular-amet img {
+      margin-bottom: 13px;
+      width: 100%;
+    }
+
+    .popular-Porta h3,
+    .popular-nonquam h3,
+    .popular-amet h3 {
+      font-size: 22px;
+      line-height: 32px;
+      font-weight: bold;
+      letter-spacing: 0.04em;
+      color: #1f3f68;
+    }
+    .popular-Porta p,
+    .popular-nonquam p,
+    .popular-amet p {
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.04em;
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 33px;
+    }
+    .article-reference {
+      display: flex;
+      justify-content: space-between;
+      .author {
+        h6 {
+          font-weight: bold;
+          font-size: 14px;
+          letter-spacing: 0.04em;
+          margin-bottom: 4px;
+          color: #1f3f68;
+        }
+        .date {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.4);
+        }
+      }
+      .icons {
+        display: flex;
+        .icon-share {
+          margin-left: 38px;
+        }
+      }
+    }
+    .popular-seall {
+      font-family: Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 18px;
+      text-align: end;
+      font-weight: bold;
+      color: #356ead;
+      margin-top: 54px;
+    }
+  }
+  .popular-hr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 26px;
+  }
+}

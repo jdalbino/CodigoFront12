@@ -1,0 +1,57 @@
+.footer {
+  background-color: #316099;
+  padding: 96px 208px 64px 208px;
+  color: white;
+  .footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 158px;
+  }
+  .footer-logo {
+    position: relative;
+    .felipsehead1 {
+      position: absolute;
+      left: 0px;
+      z-index: 1;
+    }
+    .felipsehead2 {
+      position: absolute;
+      left: 15px;
+      z-index: 2;
+    }
+    .footer-logo-a {
+      left: 23px;
+      top: 5px;
+      position: absolute;
+      font-size: 20px;
+      color: #316099;
+      z-index: 3;
+    }
+  }
+  .afiranska {
+    h5 {
+      font-size: 28px;
+      margin-left: 55px;
+      padding-top: 5px;
+    }
+    ul {
+      li {
+        margin-bottom: 24px;
+        span {
+          font-family: Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .about-us h5,
+  .follow-us h5 {
+    font-size: 20px;
+  }
+  .rights {
+    opacity: 0.6;
+    margin-top: 64px;
+  }
+}
