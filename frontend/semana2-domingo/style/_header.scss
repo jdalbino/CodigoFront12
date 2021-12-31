@@ -1,29 +1,29 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 18px;
-}
-.header .header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  .header-list {
     display: flex;
     padding-top: 35px;
     gap: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
-    font-size: 14px;    
-}
-.header-list .sobremi:hover,
-.header-list .portfolio:hover,
-.header-list .servicios:hover,
-.header-list .blog:hover,
-.header-list .contacto:hover {
-    border-bottom: solid 3px #6D0AD3;
-    border-radius: 3px;
-}
-.header-list .sobremi a:hover,
-.header-list .portfolio a:hover,
-.header-list .servicios a:hover,
-.header-list .blog a:hover,
-.header-list .contacto a:hover {
-color: #6D0AD3;
+    font-size: 14px;
+    .sobremi:hover,
+    .portfolio:hover,
+    .servicios:hover,
+    .blog:hover,
+    .contacto:hover {
+      border-bottom: solid 3px #6d0ad3;
+      border-radius: 3px;
+    }
+    .sobremi a:hover,
+    .portfolio a:hover,
+    .servicios a:hover,
+    .blog a:hover,
+    .contacto a:hover {
+      color: #6d0ad3;
+    }
+  }
 }

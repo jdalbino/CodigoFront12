@@ -1,10 +1,12 @@
-.main .main-down {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: 25px;
-}
-.main .main-down label{
-    font-weight: 600;
-    font-size: 13px;
-    color: #00CF95;
+.main {
+    .main-down {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    label{
+        font-weight: 600;
+        font-size: 13px;
+        color: #00CF95;
+    }
 }

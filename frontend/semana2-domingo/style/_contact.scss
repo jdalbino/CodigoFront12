@@ -1,30 +1,31 @@
 .main-contact {
-    padding-bottom: 49px;
-}
-.main-contact h2 {
+  padding-bottom: 49px;
+  h2 {
     margin-bottom: 32px;
-}
-.main-contact .contact-form {
+  }
+  .contact-form {
     display: grid;
     grid-template-columns: 308px 308px;
     grid-template-rows: 57px 57px 150px;
     justify-content: center;
     gap: 20px;
-}
-.main-contact .contact-form textarea {
-    grid-column: 1 / 3;
-} 
-.main-contact input, .main-contact textarea {
-padding: 10px;
-}
-.main-contact .divbutton {
+    textarea {
+      grid-column: 1 / 3;
+    }
+  }
+  input,
+  textarea {
+    padding: 10px;
+  }
+  .divbutton {
     text-align: center;
     margin-top: 40px;
-}
-.main-contact button {
+  }
+  button {
     width: 144px;
     height: 57px;
-    background: #6D0AD3;
+    background: #6d0ad3;
     border-radius: 8px;
-    color: #EDE2FA;
+    color: #ede2fa;
+  }
 }

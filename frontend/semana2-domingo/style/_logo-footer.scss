@@ -2,35 +2,35 @@
     position: relative;
     margin-bottom: 60PX;
     margin-right: 150PX;
-}
-.footer-logo .frect1,
-.footer-logo .frect2,
-.footer-logo .frect3,
-.footer-logo .frect4,
-.footer-logo .flogo-label {
-    position: absolute;
-}
-.footer-logo .frect1 {
-    z-index: 1;
-    margin-left: 3px;
-}
-.footer-logo .frect2{
-    z-index: 2;
-    margin-left: 5px;
-}
-.footer-logo .frect3 {
-    z-index: 3;
-    margin-left: 7px;
-}
-.footer-logo .frect4 {
-    z-index: 4;
-    margin-left: 9px;
-}
-.footer-logo .flogo-label {
-    z-index: 5;
-    margin-left: 30px;
-    margin-top: 22px;
-    color: #6D0AD3;
-    font-size: 14px;
-    font-family: 'Beth Ellen', cursive;
+    .frect1,
+    .frect2,
+    .frect3,
+    .frect4,
+    .flogo-label {
+        position: absolute;
+    }
+    .frect1 {
+        z-index: 1;
+        margin-left: 3px;
+    }
+    .frect2{
+        z-index: 2;
+        margin-left: 5px;
+    }
+    .frect3 {
+        z-index: 3;
+        margin-left: 7px;
+    }
+    .frect4 {
+        z-index: 4;
+        margin-left: 9px;
+    }
+    .flogo-label {
+        z-index: 5;
+        margin-left: 30px;
+        margin-top: 22px;
+        color: #6D0AD3;
+        font-size: 14px;
+        font-family: 'Beth Ellen', cursive;
+    }
 }

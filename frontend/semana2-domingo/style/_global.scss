@@ -10,12 +10,14 @@ body {
 h3,h4 {
     font-family: 'Poppins', sans-serif;
 }
-.main h2 {
-    font-family: 'Poppins',sans-serif;
-    font-weight: 600;
-    font-size: 28px;
-    color: #0098EF;
-}
+.main {
+    h2 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        color: #0098EF;
+    }
+} 
 img {
     display: inline-block;
 }
