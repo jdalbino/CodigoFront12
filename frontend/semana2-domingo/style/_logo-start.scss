@@ -1,0 +1,34 @@
+.header-logo {
+    position: relative;
+}
+.header-logo .rect1,
+.header-logo .rect2,
+.header-logo .rect3,
+.header-logo .rect4,
+.header-logo .logo-label {
+    position: absolute;
+}
+.header-logo .rect1 {
+    z-index: 1;
+    margin-left: 3px;
+}
+.header-logo .rect2{
+    z-index: 2;
+    margin-left: 5px;
+}
+.header-logo .rect3 {
+    z-index: 3;
+    margin-left: 7px;
+}
+.header-logo .rect4 {
+    z-index: 4;
+    margin-left: 9px;
+}
+.header-logo .logo-label {
+    z-index: 5;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #6D0AD3;
+    font-size: 14px;
+    font-family: 'Beth Ellen', cursive;
+}

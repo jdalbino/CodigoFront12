@@ -1,0 +1,45 @@
+.contacto {
+  h2 {
+    color: #06d2c6;
+    margin-bottom: 16px;
+  }
+  p {
+    margin-bottom: 13px;
+  }
+  .nombre-apellido {
+    height: 88px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-left: 25px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+  }
+  .detalle {
+    height: 214px;
+    width: 100%;
+    margin-bottom: 37px;
+    padding-top: 19px;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+  }
+  button {
+    width: 195px;
+    height: 75px;
+    color: #22a900;
+    font-weight: 400px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid #22a900;
+    padding-top: 24px;
+    padding-left: 63px;
+    padding-right: 69px;
+    padding-bottom: 23px;
+    /* margin-bottom: 167px; */
+    justify-self: flex-start;
+  }
+}

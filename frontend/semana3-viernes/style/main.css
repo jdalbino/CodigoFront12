@@ -1,0 +1,45 @@
+@import url(./_variable.scss);
+@import url(./_global.scss);
+@import url(./_header.scss);
+body {
+  color: green;
+  font-family: tahoma;
+}
+
+a {
+  color: green;
+}
+
+ul li {
+  color: green;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: tahoma;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+nav li {
+  margin-left: 10px;
+}
+nav li:hover {
+  background-color: blue;
+}
+nav li.is-active {
+  background-color: red;
+}
+nav:hover {
+  background: blueviolet;
+}
+nav-black {
+  background: chartreuse;
+}

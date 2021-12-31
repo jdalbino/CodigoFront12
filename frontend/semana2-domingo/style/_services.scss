@@ -1,0 +1,122 @@
+.main .main-services {
+    margin-top: 60px;
+}
+.main .main-services h2 {
+    margin-bottom: 33px;
+}
+.main .main-services .rectangle {
+    background: #00CF95;
+    border: 5px solid #D1FFA2;
+    border-radius: 8px;
+    font-family: 'Poppins',sans-serif;
+    position: relative;
+}
+.main .main-services .rectangle:hover {
+    border: 5px solid #5A0CB0;
+}
+.main .main-services .rectangle img {
+    position: absolute;
+    left: 27px;
+    top: 27px;
+}
+.main .main-services .rectangle .rectangle-ux {
+    width: 156px;
+    height: 48px;
+    font-weight: 500;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-front {
+    width: 156px;
+    height: 48px;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-back {
+    width: 156px;
+    height: 48px;
+    font-weight: 500;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-apps {
+    width: 156px;
+    height: 48px;
+    font-weight: 500;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-consulting {
+    width: 156px;
+    height: 48px;
+    font-weight: 500;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-cloud {
+    width: 156px;
+    height: 48px;
+    font-weight: 500;
+    background: #D1FFA2;
+    color: #5A0CB0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px 0px 0px 8px;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+}
+.main .main-services .rectangle .rectangle-ux:hover,
+.main .main-services .rectangle .rectangle-front:hover,
+.main .main-services .rectangle .rectangle-back:hover,
+.main .main-services .rectangle .rectangle-apps:hover,
+.main .main-services .rectangle .rectangle-cloud:hover,
+.main .main-services .rectangle .rectangle-consulting:hover
+{
+    background: #5A0CB0;
+    color: white;
+}
+.services-rectangles {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 308px 308px;
+    grid-template-rows: 218px 218px 218px;
+    gap: 20px;
+}

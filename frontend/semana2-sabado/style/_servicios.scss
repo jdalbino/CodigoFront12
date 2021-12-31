@@ -1,0 +1,17 @@
+.main {
+  .servicios {
+    margin-top: 83px;
+    .main-servicios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      figure {
+        margin: 16px;
+        img {
+          width: 300px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}

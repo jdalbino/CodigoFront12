@@ -1,0 +1,32 @@
+.main {
+    .main-portafolio {
+        background-color: #FFD233;
+        width: 960px;
+        height: 424px;
+        padding-top: 42px;
+        padding-left: 183px;
+        padding-right: 179px;
+        padding-bottom: 96px;
+        box-sizing: border-box;
+        h3 {
+            color: #00AD84;
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 46px;
+        }
+        img {
+            width: 140px;
+            height: 92px;
+        }
+        .portafolio-imagenes {
+            row-gap: 13px;
+            .img-arriba {
+                column-gap: 11px;
+            }
+            .img-abajo {
+                column-gap: 13px;
+            }
+        }
+    }
+} 

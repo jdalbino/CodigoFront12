@@ -1,0 +1,45 @@
+.main {
+  .main-skills {
+    background-color: #9022ff;
+    width: 960px;
+    height: 424px;
+    padding-top: 31px;
+    padding-left: 64px;
+    padding-right: 57px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    h2 {
+      color: #26cc4b;
+      text-align: center;
+      margin-bottom: 33px;
+    }
+    h3 {
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .skills-lefright {
+      display: flex;
+      justify-content: space-between;
+      .javavue {
+        margin-top: 25px;
+      }
+      .flexcss {
+        margin-top: 36px;
+      }
+      .barra {
+        width: 403px;
+        height: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-top: 14px;
+        .color {
+          width: 50%;
+          height: 100%;
+          background-color: #57eff9;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+}

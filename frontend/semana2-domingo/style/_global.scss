@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        width: 62.5%;
+        margin: auto;
+    }
+
+h3,h4 {
+    font-family: 'Poppins', sans-serif;
+}
+.main h2 {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color: #0098EF;
+}
+img {
+    display: inline-block;
+}
+p, .footer {
+    font-family: 'Raleway', sans-serif;
+}
+hr {
+    border: 1px solid #00CF95;
+}
+a {
+    text-decoration: none;
+    color: #262626;
+}

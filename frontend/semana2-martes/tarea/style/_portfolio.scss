@@ -1,0 +1,33 @@
+.portafolio {
+
+h2 {
+    color: #AAD206;
+    margin-bottom: 16px;
+    margin-top: 50px;
+}
+p {
+    margin-bottom: 12px;
+} 
+.portafolio-images {
+    display: flex;
+    img {
+        margin-bottom: 50px;
+        }
+}
+ul {
+    line-height: 44px;
+    margin-bottom: 50px;
+    li:nth-child(1) {
+        color:#AE8800;
+    }
+    li:nth-child(2) {
+        color:#AE280B;
+    }
+    li:nth-child(3) {
+        color: #060564;
+    }
+    li:nth-child(4) {
+        color: #637300;
+    }
+}
+}

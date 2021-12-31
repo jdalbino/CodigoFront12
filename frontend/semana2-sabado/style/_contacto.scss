@@ -1,0 +1,23 @@
+.main {
+  .contacto {
+    margin-top: 93px;
+    figure {
+      img {
+        width: 500px;
+        height: 300px;
+      }
+    }
+    .contacto-details {
+      display: flex;
+      column-gap: 15px;
+      ul {
+        li {
+          margin-bottom: 20px;
+        }
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

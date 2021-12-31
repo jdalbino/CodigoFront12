@@ -1,0 +1,53 @@
+// PRCEDENCIA DE DOCUMENTOS ES IMPORTANTE
+@import "./_variable.scss)";
+@import "./_global.scss";
+@import "./_header.scss";
+
+// VARIABLES PARA AGRUPAR VALORES Y MEJOR MANEJO
+$color-principal: green;
+$font-family-principal: tahoma;
+$font-family-titulos: tahoma;
+// GLOBAL Y USO DE VARIABLES DECLARADAS
+body {
+  color: $color-principal;
+  font-family: $font-family-principal;
+}
+
+a {
+  color: $color-principal;
+}
+
+ul li {
+  color: $color-principal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-principal;
+}
+// NESTING, TE PERMITE ESCRIBIR MENOS CODIGO Y MEJOR INTERPRETACIÓN. EL AND (&) ES EL PADRE
+nav {
+  ul {
+    display: flex;
+  }
+  li {
+    margin-left: 10px;
+
+    &:hover {
+      background-color: blue;
+    }
+    &.is-active {
+      background-color: red;
+    }
+  }
+  &:hover {
+    background: blueviolet;
+  }
+  &-black {
+    background: chartreuse;
+  }
+}

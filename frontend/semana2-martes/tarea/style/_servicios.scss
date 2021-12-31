@@ -1,0 +1,31 @@
+.servicios {
+  h2 {
+    color: #d206b2;
+    margin-top: 66px;
+    margin-bottom: 16px;
+  }
+  p {
+    line-height: 26px;
+    margin-bottom: 12px;
+  }
+  .servicios-images {
+    display: flex;
+  }
+
+  ul {
+    margin-top: 50px;
+    line-height: 44px;
+    li:nth-child(1) {
+      color: red;
+    }
+    li:nth-child(2) {
+      color: blue;
+    }
+    li:nth-child(3) {
+      color: #d79b00;
+    }
+    li:nth-child(4) {
+      color: #03b3b3;
+    }
+  }
+}

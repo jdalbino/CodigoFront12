@@ -1,0 +1,107 @@
+/* MAIN BLOG */
+.main .main-blog {
+    margin-top: 113px;
+    margin-bottom: 113px;
+}
+.js, .jsengine {
+    margin-right: 20px;
+}
+.main .main-blog h2 {
+    margin-bottom: 32px;
+}
+.main .main-blog img {
+width:100%;
+height: initial;
+}
+.main .main-blog .main-blog-cards {
+display: flex;
+}
+
+/* MAIN BLOG JS NUEVO BLOG */
+.main .main-blog .js h3 {
+    font-weight: 600;
+    font-size: 28px;
+    border-left: 3px solid #5A0CB0;
+    padding-left: 9px;
+    margin-bottom: 16px;
+}
+.main .main-blog .js img {
+    margin-bottom: 22px;
+}
+.main .main-blog .js p {
+    font-size: 13px;
+    line-height: 26px;
+}
+/* MAIN BLOG CSS3*/
+.main .main-blog .css3 h3 {
+    font-weight: 600;
+    font-size: 12px;
+    border-left: 3px solid #C4C4C4;
+    padding-left: 6px;
+    margin-bottom: 12px;
+}
+.main .main-blog .css3 p {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    padding-right: 15px;
+}
+/* MAIN BLOG js engine*/
+.main .main-blog .jsengine img {
+margin-bottom: 21px;
+}
+.main .main-blog .jsengine h3 {
+    font-weight: 600;
+    font-size: 12px;
+    border-left: 3px solid #C4C4C4;
+    padding-left: 6px;
+    margin-bottom: 11px;
+}
+.jsengine-content {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.main .main-blog .jsengine p {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+/* MAIN BLOG javascript*/
+.main .main-blog .javascript h3 {
+    font-weight: 600;
+    font-size: 12px;
+    border-left: 3px solid #C4C4C4;
+    padding-left: 6px;
+    margin-bottom: 5px;
+}
+.main .main-blog .javascript .javascript-small {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.main .main-blog .javascript img {
+    margin-bottom: 20px;
+}
+.main .main-blog .javascript .javascript-large {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 33px;
+    font-weight: 400;
+}
+.main-blog .javascript form{
+display: flex;
+}
+.main .main-blog .javascript #email {
+width: 70%;
+height: 50px;
+border: 1px solid #C0C0C0;
+border-radius: 8px 0px 0px 8px;
+padding: 10px;
+}
+.main .main-blog .javascript .subscribe {
+    background-color: #6D0AD3;
+    border-radius: 0px 8px 8px 0px;
+    width: 40%;
+    height: 50px;
+    color: white;
+}

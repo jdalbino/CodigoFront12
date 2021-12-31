@@ -1,0 +1,59 @@
+.footer {
+  .footer-contacto {
+    background-color: #1687a0;
+    width: 960px;
+    height: 578px;
+    padding-top: 34px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 76px;
+    box-sizing: border-box;
+    position: relative;
+    h3 {
+      color: #ff1b1b;
+      font-size: 36px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 27px;
+    }
+    .input-general {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 33px;
+      margin-bottom: 36px;
+      input {
+        width: 363px;
+        height: 59px;
+        box-sizing: border-box;
+      }
+      .input-left :nth-child(1) {
+          margin-bottom: 33px;
+        }
+      .input-right :nth-child(1) {
+          margin-bottom: 33px;
+        }
+      }
+      
+    }
+    textarea {
+      width: 759px;
+      height: 112px;
+      box-sizing: border-box;
+      margin-bottom: 45px;
+    }
+    .footer-boton {
+      button {
+        position: absolute;
+        left: 396px;
+        bottom: 76px;
+        background-color: #233451;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 18px;
+        padding-left: 51px;
+        padding-right: 47px;
+        padding-bottom: 17px;
+      }
+    }
+}

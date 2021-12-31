@@ -1,0 +1,17 @@
+.main {
+  .portafolio {
+    margin-top: 93px;
+    .main-portafolio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      figure {
+        img {
+          width: 170px;
+          height: 120px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}

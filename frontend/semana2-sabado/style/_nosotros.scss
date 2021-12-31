@@ -1,0 +1,16 @@
+.main {
+    .nosotros {
+        margin-top: 43px;
+        .nosotros-figure {
+            display: flex;
+            justify-content: center;
+            figure {
+                margin-right: 28px;
+                img {
+                    width: 230px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
