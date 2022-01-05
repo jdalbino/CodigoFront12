@@ -549,6 +549,9 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
 }
+.main .main-blog .javascript form > input[type=submit] {
+  cursor: pointer;
+}
 .main .main-blog .javascript #email {
   width: 70%;
   height: 50px;
@@ -668,6 +671,10 @@ button:hover {
   display: -ms-flexbox;
   display: flex;
   gap: 15px;
+}
+.footer .footer-nav-middle .footer-middle-list > li {
+  border-bottom: solid 3px #ffff;
+  border-radius: 3px;
 }
 .footer .footer-nav-middle .footer-middle-list .f_sobremi:hover,
 .footer .footer-nav-middle .footer-middle-list .f_portfolio:hover,

@@ -22,9 +22,14 @@
     justify-content: center;
     margin-top: 28px;
     margin-bottom: 36px;
+
     .footer-middle-list {
       display: flex;
       gap: 15px;
+      &>li {
+        border-bottom: solid 3px #ffff;
+        border-radius: 3px;
+      }
       .f_sobremi:hover,
       .f_portfolio:hover,
       .f_servicios:hover,
