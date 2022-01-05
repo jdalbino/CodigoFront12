@@ -66,11 +66,6 @@
       }
     }
   }
-  .header {
-    .header-list {
-      padding-top: 52px;
-    }
-  }
 }
 @media (max-width: 770px) {
   .main {
@@ -114,6 +109,7 @@
     .header-logo {
       display: flex;
       justify-content: center;
+      margin: auto;
       .logo-label {
         margin-left: 10px;
       }

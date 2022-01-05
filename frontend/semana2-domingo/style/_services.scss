@@ -12,6 +12,10 @@
       position: relative;
       &:hover {
         border: 5px solid #5a0cb0;
+        & > div {
+          background-color: #5a0cb0;
+          color: white;
+        }
       }
       img {
         position: absolute;
@@ -101,15 +105,15 @@
         bottom: 52px;
         right: 0;
       }
-      .rectangle-ux:hover,
-      .rectangle-front:hover,
-      .rectangle-back:hover,
-      .rectangle-apps:hover,
-      .rectangle-cloud:hover,
-      .rectangle-consulting:hover {
-        background: #5a0cb0;
-        color: white;
-      }
+      // .rectangle-ux:hover,
+      // .rectangle-front:hover,
+      // .rectangle-back:hover,
+      // .rectangle-apps:hover,
+      // .rectangle-cloud:hover,
+      // .rectangle-consulting:hover {
+      //   background: #5a0cb0;
+      //   color: white;
+      // }
     }
     .services-rectangles {
       display: grid;
