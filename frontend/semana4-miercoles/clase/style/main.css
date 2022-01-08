@@ -1,0 +1,61 @@
+.button {
+  border: none;
+  width: 213px;
+  height: 68px;
+  color: white;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.button-primary {
+  background-color: red;
+}
+
+.button-secondary {
+  background-color: green;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.header {
+  background-color: red;
+  padding: 20px;
+}
+
+.main {
+  background-color: green;
+  padding: 20px;
+}
+
+.footer {
+  background-color: yellow;
+  padding: 20px;
+}
+
+.header {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  font-size: 24px;
+}
+.header__nav {
+  font-size: 16px;
+}
+.header--black {
+  background-color: black;
+}
+.header--black .header__logo {
+  color: white;
+}

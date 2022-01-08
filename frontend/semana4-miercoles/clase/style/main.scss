@@ -1,0 +1,56 @@
+.button {
+    border: none;
+    width: 213px;
+    height: 68px;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.button-primary {
+    background-color: red;
+}
+.button-secondary {
+    background-color: green;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.header {
+    background-color: red;
+    padding: 20px;
+}
+
+.main {
+background-color: green;
+padding: 20px;
+}
+
+.footer {
+    background-color: yellow;
+    padding: 20px;
+}
+
+// bem
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        font-size: 24px;
+    }
+
+    &__nav {
+        font-size: 16px;
+    }
+
+    &--black {
+        background-color: black;
+        .header__logo {
+            color: white;
+        }
+    }
+}
