@@ -1,0 +1,63 @@
+// CONTAINER
+.main-container {
+    width: 450px;
+    background-color: $VeryPaleBlue;
+    border-radius: 20px;
+}
+.container-summary {
+    text-align: center;
+    padding: 10%;
+    h1 {
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: $ParagraphSize;
+        color: $DesaturatedBlue;
+        line-height: 24px;
+        margin-bottom: 20px;
+        width: 95%;
+    }
+    .container-plan {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 6%;
+        border-radius: 10px;
+        background-color: #ecf1ff;
+        &:nth-child(3) {
+            line-height: 25px;
+            color: $DesaturatedBlue;
+            strong {
+                color: black;
+            }
+        }
+    }
+    .button-payment {
+        button {
+         width: 100%; 
+         padding-top: 3%;
+         padding-bottom: 3%;
+         border-radius: 10px;
+         color: $VeryPaleBlue;
+         background-color: $BrightBlue;
+         border-color: $BrightBlue;
+         font-weight: 700;
+         margin-bottom: 10px;  
+        }
+    }
+    .button-cancel {
+        button {
+         width: 100%; 
+         padding-top: 3%;
+         padding-bottom: 3%;
+         border-radius: 10px;
+         color: $DesaturatedBlue;
+         font-weight: 700;
+         border: 0;  
+         background-color: $VeryPaleBlue;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// GLOBAL
+* {
+    font-family: $FontFamily;
+}
+img {
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+}
+.main {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #dbe4ffc9;
+}
