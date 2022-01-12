@@ -14,9 +14,10 @@ img {
 
 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
   text-align: left;
+  margin-bottom: 30px;
 }
 h1 span {
   color: #aa5cdb;
@@ -54,7 +55,7 @@ body {
 .main .modal .modal-content {
   background-color: #1b1938;
   width: 50%;
-  padding: 4% 6% 6% 4%;
+  padding: 4% 6% 2% 4%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,12 +77,20 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  width: 75%;
+}
+.main .modal .modal-content .modal-numbers .numbersInModal {
+  color: white;
   font-size: 30px;
+  font-weight: 700;
 }
 .main .modal .modal-content p {
   color: rgba(255, 255, 255, 0.75);
   font-size: 15px;
-  width: 60%;
+  width: 75%;
   text-align: left;
   line-height: 30px;
   margin-bottom: 40px;

@@ -12,9 +12,10 @@ img {
 }
 h1 {
 color: hsl(0, 0%, 100%);
-font-size: 50px;
+font-size: 45px;
 font-weight: 500;
 text-align: left;
+margin-bottom: 30px;
 span {
     color: $Accent
 }
@@ -37,7 +38,7 @@ body {
     .modal-content {
         background-color: $CardBackground;
         width: 50%;
-        padding: 4% 6% 6% 4%;
+        padding: 4% 6% 2% 4%;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -48,12 +49,20 @@ body {
             display: flex;
             justify-content: space-between;
             color: $StatsHeading;
-            font-size: 30px;
+            font-size: 15px;
+            line-height: 30px;
+            font-family: $FontFamilyLexand;
+            width: 75%;
+            .numbersInModal {
+                color: hsl(0, 0%, 100%);
+                font-size: 30px;
+                font-weight: 700;
+            }
         }
         p {
             color: $MainParagraph;
             font-size: 15px;
-            width: 60%;
+            width: 75%;
             text-align: left;
             line-height: 30px;
             margin-bottom: 40px;
