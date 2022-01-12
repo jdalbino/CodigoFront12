@@ -1,3 +1,40 @@
-// @media (max-width:) {
-    
-// }
+@media (max-width: 375px) {
+  .main {
+    background-image: none;
+    .main-container {
+      width: 90%;
+      img {
+        width: 100%;
+      }
+      .container-summary {
+        h1 {
+          font-weight: 700;
+        }
+        p {
+          line-height: 30px;
+        }
+        .container-plan {
+          padding: 0;
+          margin-bottom: 40px;
+          margin-top: 40px;
+          img {
+            width: 20%;
+          }
+        }
+        .button-payment {
+            button {
+             height: 50px;
+             font-size: 15px;
+            }
+      }
+      .button-cancel {
+          button {
+            height: 50px;
+            font-size: 15px;
+                      }
+          
+      }
+    }
+  }
+}
+}

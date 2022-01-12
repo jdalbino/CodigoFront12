@@ -21,6 +21,7 @@ img {
           align-items: center;
   background: url(../images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: #dbe4ffc9;
 }
 
@@ -68,6 +69,11 @@ img {
 .container-summary .container-plan:nth-child(3) strong {
   color: black;
 }
+.container-summary .container-plan a:hover {
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  color: #5129e0;
+}
 .container-summary .button-payment button {
   width: 100%;
   padding-top: 3%;
@@ -79,6 +85,11 @@ img {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.container-summary .button-payment button:hover {
+  cursor: pointer;
+  background-color: #5129e0;
+  border-color: #5129e0;
+}
 .container-summary .button-cancel button {
   width: 100%;
   padding-top: 3%;
@@ -88,4 +99,43 @@ img {
   font-weight: 700;
   border: 0;
   background-color: #f5f7ff;
+}
+.container-summary .button-cancel button:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 900;
+}
+
+@media (max-width: 375px) {
+  .main {
+    background-image: none;
+  }
+  .main .main-container {
+    width: 90%;
+  }
+  .main .main-container img {
+    width: 100%;
+  }
+  .main .main-container .container-summary h1 {
+    font-weight: 700;
+  }
+  .main .main-container .container-summary p {
+    line-height: 30px;
+  }
+  .main .main-container .container-summary .container-plan {
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .main .main-container .container-summary .container-plan img {
+    width: 20%;
+  }
+  .main .main-container .container-summary .button-payment button {
+    height: 50px;
+    font-size: 15px;
+  }
+  .main .main-container .container-summary .button-cancel button {
+    height: 50px;
+    font-size: 15px;
+  }
 }
