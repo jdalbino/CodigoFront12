@@ -1,0 +1,112 @@
+// GLOBAL
+* {
+    font-family: $FontFamily;
+    box-sizing: border-box;
+}
+p {
+    font-size: $BodyFont;
+}
+h1 {
+    color: $Cyan;
+    font-size: 25px;
+}
+h2 {
+    color: $LightGray;
+}
+h3 {
+    color: $BrightYellow;
+}
+// MAIN
+.main {
+    padding: 15% 30% 15% 30%;
+    background-color: #98a6bd4a;
+    height: 100vh;
+    .main-container {
+        width: 100%;
+        height: 100%;
+        box-shadow: 3px 3px 3px 1px #80808061;
+        border-radius: 10px;
+    }
+    .main-top {
+        background-color: $LightGray;
+        height: 45%;
+        padding: 5%;
+        padding-right: 10%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+            color: $GrayishBlue;
+            line-height: 25px;
+            width: 100%;
+            font-weight: 300;
+        }
+    }
+    .main-bottom {
+        display: flex;
+        height: 55%;
+    }
+    .main-left {
+        background-color: $Cyan;
+        width: 50%;
+        border-bottom-left-radius: 10px;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .main-left-amount {
+            color: #e5eff591;
+        }
+        .main-left-fullaccess {
+            color: #e5eff5d9
+        }
+        p {
+            color: hsla(203, 44%, 93%, 0.705);
+            .main-left-number {
+                font-size: 30px;
+                color: $LightGray;
+            }
+        }
+        .main-left-button {
+            border-radius: 10px;
+            box-shadow: 2px 2px 12px 2px #80808094;
+        }
+        button {
+            background-color: $BrightYellow;
+            color: $LightGray;
+            width: 100%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            border: none;
+            border-radius: 10px;
+            transition: 0.5s;
+            position: relative;
+            &:hover {
+                background-color:hsla(71, 73%, 54%, 0.788);
+                cursor: pointer;
+                color: grey;
+            }
+        }
+    }
+    .main-right {
+        background-color: hsla(179, 62%, 43%, 0.781);
+        width: 50%;
+        border-bottom-right-radius: 10px;
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        h2 {
+            margin-bottom: 15px;
+        }
+        p {
+            color: #e5eff5b5;
+            width: 75%;
+            line-height: 23px;
+            font-weight: 300;
+            height: 100%;
+            font-size: 13px;
+        }
+    }
+}
