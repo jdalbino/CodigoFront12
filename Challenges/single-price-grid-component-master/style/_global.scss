@@ -13,12 +13,10 @@ h1 {
 h2 {
     color: $LightGray;
 }
-h3 {
-    color: $BrightYellow;
-}
+
 // MAIN
 .main {
-    padding: 15% 30% 15% 30%;
+    padding: 8% ​30% 8% 30%;
     background-color: #98a6bd4a;
     height: 100vh;
     .main-container {
@@ -37,6 +35,9 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        .main-top-30day {
+            color: $BrightYellow;
+        }
         p {
             color: $GrayishBlue;
             line-height: 25px;
