@@ -1,6 +1,5 @@
 import { Nav } from "../nav/nav";
-export //Header
-function Header(){
+export function Header(){
   return(
     <div className="header">
       <div>

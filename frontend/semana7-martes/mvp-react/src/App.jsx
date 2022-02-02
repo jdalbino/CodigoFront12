@@ -16,7 +16,7 @@ function App() {
         <Main>
           <Switch>
             <Route path="/sobre-mi">
-              <PageSobremi/>
+              <PageSobremi></PageSobremi>
             </Route>
             <Route path="/portafolio">
               <PagePortafolio></PagePortafolio>

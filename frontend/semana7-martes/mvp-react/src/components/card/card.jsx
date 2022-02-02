@@ -27,3 +27,24 @@ function Card(cardproperty) {
 function CardDetail(props) {
     return props.detail.map((details) => <li>{details}</li>);
   }
+
+  // User Cards
+  export function UserCard(cardproperty) {
+    const {
+      name = "dummy",
+      lastname = "dummy lastname",
+      description = "Lorem",
+    } = cardproperty;
+  
+    return (
+      <article>
+        <div className="card-content">
+          <h2>{name}</h2>
+          <p>{description}</p>
+          {/* <ul>
+            <li>{lastname}</li>
+          </ul> */}
+        </div>
+      </article>
+    );
+  }

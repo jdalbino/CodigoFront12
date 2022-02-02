@@ -1,5 +1,4 @@
-export //Footer
-function Footer(){
+export function Footer(){
   return(
     <div className="footer">
       <div>
