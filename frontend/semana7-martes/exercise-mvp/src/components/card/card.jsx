@@ -9,7 +9,7 @@ export function Card(cardproperties) {
 
   return (
     <div className="card-content">
-      <img src={imagen} alt="" />
+      <img className="card-image" src={imagen} alt="" />
       <h2>{titulo}</h2>
       <p>
         {descripcion}

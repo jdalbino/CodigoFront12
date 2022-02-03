@@ -2,7 +2,12 @@
 export function Footer(){
     return (
       <div className="footer">
-        Footer
+        <div>
+        Todos los derechos Reservados
+        </div>
+        <div>
+          Hecho por: Juan Diego Albino
+        </div>
       </div>
     )
   }
