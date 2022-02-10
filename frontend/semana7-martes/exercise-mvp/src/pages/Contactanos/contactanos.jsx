@@ -1,4 +1,11 @@
-export function PageContactanos(){
+import { Redirect } from "react-router"
+
+export function PageContactanos({authorized}){
+
+    if (!authorized) {
+        return <Redirect to="login"></Redirect>
+    }
+
     return(
     <div className="page-contactanos">
         <form action="">
