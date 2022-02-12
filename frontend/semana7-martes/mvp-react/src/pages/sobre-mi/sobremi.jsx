@@ -1,4 +1,5 @@
 import { Card } from "../../components/card/card";
+import { useSelector,useDispatch } from "react-redux";
 //DATA:
 //Data of Card Features:
 const features = [
@@ -33,9 +34,18 @@ const features = [
   ];
   
 export function PageSobremi() {
-    return (
+  const count = useSelector(state => state.counter);
+  const dispatch = useDispatch();
+
+  return (
         <div className="page-sobremi">
-            <h1>Lista de Cartillas</h1>
+            <h1>Lista de Cartillas: {count}</h1>
+            <button style={{width:"200px",height:"200px"}} onClick={()=>dispatch({
+        type: "INCREMENT",
+      })}>INCREMENTAR</button>
+      <button style={{width:"200px",height:"200px"}} onClick={()=>dispatch({
+        type: "DECREMENT",
+      })}>DECREMENTAR</button>
       <div className="main-cards">
       {
         features.map((feature)=>
@@ -44,6 +54,7 @@ export function PageSobremi() {
           title={feature.title}
           description={feature.description}
           list={feature.list}
+          
         >
         </Card>
         )

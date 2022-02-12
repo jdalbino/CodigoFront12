@@ -7,9 +7,13 @@ import { PageExperiencia } from "./pages/experiencia/experiencia";
 import { PageContacto } from "./pages/contacto/contacto";
 
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import {store} from "./store/store";
+import { Provider } from "react-redux";
+
 export //MAIN APP FUNCTION:
 function App() {
   return (
+    <Provider store={store}>
     <Router>
       <div className="Wrapper">
         <Header></Header>
@@ -33,5 +37,6 @@ function App() {
         <Footer></Footer>
       </div>
     </Router>
+    </Provider>
   );
 }
